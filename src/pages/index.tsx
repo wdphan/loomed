@@ -2,11 +2,11 @@ import { FC } from 'react'
 import ConnectWallet from '@/components/ConnectWallet'
 import { BookOpenIcon, CodeIcon, ShareIcon } from '@heroicons/react/outline'
 import Image from 'next/future/image'
-import Group1 from '/Users/williamphan/Desktop/Developer/wreath/src/public/images/Group1.png'
-import Group2 from '/Users/williamphan/Desktop/Developer/wreath/src/public/images/Group2.png'
-import Group3 from '/Users/williamphan/Desktop/Developer/wreath/src/public/images/Group3.png'
-import Group4 from '/Users/williamphan/Desktop/Developer/wreath/src/public/images/Group4.png'
-import Group5 from '/Users/williamphan/Desktop/Developer/wreath/src/public/images/Group5.png'
+import Group1 from 'src/public/images/Group1.png'
+import Group2 from 'src/public/images/Group2.png'
+import Group3 from 'src/public/images/Group3.png'
+import Group4 from 'src/public/images/Group4.png'
+import Group5 from 'src/public/images/Group5.png'
 //hi there!
 const Home: FC = () => {
 	return (
