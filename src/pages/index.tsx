@@ -16,51 +16,29 @@ const Home: FC = () => {
 					Wreath
 				</h1>
 				<div className="">
-					<div className="flex items-center justify-center space-x-10 ">
-						<div className="">
-							<a
-								href="https://testnets.opensea.io/assets/goerli/0xa0fe77fc0ba58c6e85f59fd47ac375990e0bdc2e/0/"
-								className=""
-							>
-								<Image src={Group1} alt="Picture of the author" width={500} height={500} />
+					<div className="flex items-center justify-center space-x-10">
+						<div className="mt-0">
+							<a href="https://testnets.opensea.io/assets/goerli/0xa0fe77fc0ba58c6e85f59fd47ac375990e0bdc2e/0/">
+								<Image src={Group1} alt="Picture of the author" width={540} height={530} />
+							</a>
+						</div>
+						<div className="mt-2">
+							<a href="https://testnets.opensea.io/assets/goerli/0xa0fe77fc0ba58c6e85f59fd47ac375990e0bdc2e/1/">
+								<Image src={Group2} alt="Picture of the author" width={530} height={530} />
 							</a>
 						</div>
 
-						<div className="">
-							<a
-								href="https://testnets.opensea.io/assets/goerli/0xa0fe77fc0ba58c6e85f59fd47ac375990e0bdc2e/1/"
-								className=""
-							>
-								<Image src={Group2} alt="Picture of the author" width={500} height={500} />
-							</a>
-						</div>
+						<a href="https://testnets.opensea.io/assets/goerli/0xa0fe77fc0ba58c6e85f59fd47ac375990e0bdc2e/2/">
+							<Image src={Group3} alt="Picture of the author" width={500} height={500} />
+						</a>
 
-						<div className="">
-							<a
-								href="https://testnets.opensea.io/assets/goerli/0xa0fe77fc0ba58c6e85f59fd47ac375990e0bdc2e/2/"
-								className=""
-							>
-								<Image src={Group3} alt="Picture of the author" width={500} height={500} />
-							</a>
-						</div>
+						<a href="https://testnets.opensea.io/assets/goerli/0xa0fe77fc0ba58c6e85f59fd47ac375990e0bdc2e/3/">
+							<Image src={Group4} alt="Picture of the author" width={500} height={500} />
+						</a>
 
-						<div className="">
-							<a
-								href="https://testnets.opensea.io/assets/goerli/0xa0fe77fc0ba58c6e85f59fd47ac375990e0bdc2e/3/"
-								className=""
-							>
-								<Image src={Group4} alt="Picture of the author" width={500} height={500} />
-							</a>
-						</div>
-
-						<div className="">
-							<a
-								href="https://testnets.opensea.io/assets/goerli/0xa0fe77fc0ba58c6e85f59fd47ac375990e0bdc2e/4/"
-								className=""
-							>
-								<Image src={Group5} alt="Picture of the author" width={500} height={500} />
-							</a>
-						</div>
+						<a href="https://testnets.opensea.io/assets/goerli/0xa0fe77fc0ba58c6e85f59fd47ac375990e0bdc2e/4/">
+							<Image src={Group5} alt="Picture of the author" width={500} height={500} />
+						</a>
 					</div>
 				</div>
 
