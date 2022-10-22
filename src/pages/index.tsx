@@ -13,8 +13,11 @@ const Home: FC = () => {
 	return (
 		<div className="relative flex items-top justify-center min-h-screen dark:bg-black sm:items-center sm:pt-0">
 			<div className="max-w-7xl mx-auto ">
+				<h1 className="mb-10 font-Grotesk text-center font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-[#00FF38] to-white">
+					Wreath
+				</h1>
 				<div className="">
-					<div className="flex items-center justify-center  space-x-10 ">
+					<div className="flex items-center justify-center space-x-10 ">
 						<div className="">
 							<a
 								href="https://testnets.opensea.io/assets/goerli/0xa0fe77fc0ba58c6e85f59fd47ac375990e0bdc2e/0/"
