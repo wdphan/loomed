@@ -7,7 +7,7 @@ import Group2 from '/Users/williamphan/Desktop/Developer/wreath/public/Group2.jp
 import Group3 from '/Users/williamphan/Desktop/Developer/wreath/public/Group3.jpeg'
 import Group4 from '/Users/williamphan/Desktop/Developer/wreath/public/Group4.jpeg'
 import Group5 from '/Users/williamphan/Desktop/Developer/wreath/public/Group5.jpeg'
-// hi
+
 const Home: FC = () => {
 	return (
 		<div className="relative flex items-top justify-center min-h-screen dark:bg-black sm:items-center sm:pt-0">
