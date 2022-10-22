@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import ConnectWallet from '@/components/ConnectWallet'
 import { BookOpenIcon, CodeIcon, ShareIcon } from '@heroicons/react/outline'
-import Image from 'next/image'
+import Image from 'next/future/image'
 import Group1 from '/Users/williamphan/Desktop/Developer/wreath/src/public/images/Group1.png'
 import Group2 from '/Users/williamphan/Desktop/Developer/wreath/src/public/images/Group2.png'
 import Group3 from '/Users/williamphan/Desktop/Developer/wreath/src/public/images/Group3.png'
@@ -19,12 +19,7 @@ const Home: FC = () => {
 					<div className="flex items-center justify-center space-x-10">
 						<div className="mt-0">
 							<a href="https://testnets.opensea.io/assets/goerli/0xa0fe77fc0ba58c6e85f59fd47ac375990e0bdc2e/0/">
-								<Image
-									src={Group1}
-									alt="Picture of the author"
-									width={540}
-									height={530}
-								/>
+								<Image src={Group1} alt="Picture of the author" width={540} height={530} />
 							</a>
 						</div>
 						<div className="mt-2">
