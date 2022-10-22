@@ -2,6 +2,11 @@ import { FC } from 'react'
 import ConnectWallet from '@/components/ConnectWallet'
 import { BookOpenIcon, CodeIcon, ShareIcon } from '@heroicons/react/outline'
 import Image from 'next/image'
+import Group1 from '/Users/williamphan/Desktop/Developer/wreath/public/Group1.jpeg'
+import Group2 from '/Users/williamphan/Desktop/Developer/wreath/public/Group2.jpeg'
+import Group3 from '/Users/williamphan/Desktop/Developer/wreath/public/Group3.jpeg'
+import Group4 from '/Users/williamphan/Desktop/Developer/wreath/public/Group4.jpeg'
+import Group5 from '/Users/williamphan/Desktop/Developer/wreath/public/Group5.jpeg'
 
 const Home: FC = () => {
 	return (
@@ -17,12 +22,7 @@ const Home: FC = () => {
 								href="https://testnets.opensea.io/assets/goerli/0xa0fe77fc0ba58c6e85f59fd47ac375990e0bdc2e/0/"
 								className=""
 							>
-								<Image
-									src="/Users/williamphan/Desktop/Developer/wreath/public/Group1.jpeg"
-									alt="Picture of the author"
-									width={500}
-									height={500}
-								/>
+								<Image src={Group1} alt="Picture of the author" width={500} height={500} />
 							</a>
 						</div>
 
@@ -31,12 +31,7 @@ const Home: FC = () => {
 								href="https://testnets.opensea.io/assets/goerli/0xa0fe77fc0ba58c6e85f59fd47ac375990e0bdc2e/1/"
 								className=""
 							>
-								<Image
-									src="/Users/williamphan/Desktop/Developer/wreath/public/Group2.jpeg"
-									alt="Picture of the author"
-									width={500}
-									height={500}
-								/>
+								<Image src={Group2} alt="Picture of the author" width={500} height={500} />
 							</a>
 						</div>
 
@@ -45,12 +40,7 @@ const Home: FC = () => {
 								href="https://testnets.opensea.io/assets/goerli/0xa0fe77fc0ba58c6e85f59fd47ac375990e0bdc2e/2/"
 								className=""
 							>
-								<Image
-									src="/Users/williamphan/Desktop/Developer/wreath/public/Group3.jpeg"
-									alt="Picture of the author"
-									width={500}
-									height={500}
-								/>
+								<Image src={Group3} alt="Picture of the author" width={500} height={500} />
 							</a>
 						</div>
 
@@ -59,12 +49,7 @@ const Home: FC = () => {
 								href="https://testnets.opensea.io/assets/goerli/0xa0fe77fc0ba58c6e85f59fd47ac375990e0bdc2e/3/"
 								className=""
 							>
-								<Image
-									src="/Users/williamphan/Desktop/Developer/wreath/public/Group4.jpeg"
-									alt="Picture of the author"
-									width={500}
-									height={500}
-								/>
+								<Image src={Group4} alt="Picture of the author" width={500} height={500} />
 							</a>
 						</div>
 
@@ -73,12 +58,7 @@ const Home: FC = () => {
 								href="https://testnets.opensea.io/assets/goerli/0xa0fe77fc0ba58c6e85f59fd47ac375990e0bdc2e/4/"
 								className=""
 							>
-								<Image
-									src="/Users/williamphan/Desktop/Developer/wreath/public/Group5.jpeg"
-									alt="Picture of the author"
-									width={500}
-									height={500}
-								/>
+								<Image src={Group5} alt="Picture of the author" width={500} height={500} />
 							</a>
 						</div>
 					</div>
